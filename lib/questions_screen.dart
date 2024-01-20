@@ -9,7 +9,7 @@ class QuestionScreen extends StatefulWidget {
 
 class _QuestionScreenState extends State<QuestionScreen> {
   @override
-  Widget build(BuildContext context) {
+  Widget build(context) {
     return const Text('something should come');
   }
 }
