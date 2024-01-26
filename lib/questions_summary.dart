@@ -13,6 +13,11 @@ class QuestionsSummary extends StatelessWidget {
         child: Column(
           children: summaryData.map((data) {
             return Container(
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(40),
+                color: Colors.black.withOpacity(0.5),
+              ),
+              padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 20),
               margin: const EdgeInsets.symmetric(vertical: 10),
               child: Row(
                 children: [
